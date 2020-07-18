@@ -29,10 +29,36 @@ czytamy w metodzie jak każdą inną tablicę.
 8. Dla każdej tablicy proszę wwywołać dla każdej z tablic, wcześniej
    zaimplementowaną metodę
 
-# Co dalej?
 
-Dziś to już koniec nowych informacji z Javy, musimy zostawić coś na  
-kolejne zajęcia. Jeśli dotarliśmy aż tu, gratuluję nam wszystkim! :)
-Jeśli nie? Nie szkodzi na kolejnych zajęciach jest odrobinę mniej materiału,  
-więc i tak zdążymy.
+# 3 Ciąg fibonacciego (20 min)
+1. Opis zachowania znajdziecie na [wikipedii](https://pl.wikipedia.org/wiki/Ci%C4%85g_Fibonacciego)
+2. Proszę przygotować klasę Fibonacci z metodą statyczną generate która dla parametru n wygeneruje ciąg fibonacciego w postaci tablicy n elementowej
+3. Dla ułatwienia wstawiam wzór:
 
+![Fibonacci](../obrazy/fibonacci2.PNG)
+
+4. Do implementacji proszę wykorzystać wiedzę o pętlach oraz o tablicach
+5. W klasie Fibonacci proszę utworzyć metodę main, która wywoła metodę generate oraz wyświetli wyniki tablicy przy pomocy println
+
+
+# 4 Choinka (20 min)
+1. Proszę przygotować program, który pobierze w dowolny sposób parametr ilości lini
+2. Dla ilości lini wykona algorytm, który wydrukuje choinkę o zadanej długości
+3. Wygląda to następująco dla wysokości 12:
+```
+ *
+ * * 
+ * * *
+ * 
+ * * 
+ * * *
+ * * * * 
+ * 
+ * * 
+ * * *
+ * * * *
+ * * * * *
+```
+4. Jak łatwo zauważyć z każdą następną linią powstaje więcej gwiazdek aż do 3
+5. Z każdą kolejnym segmentem maskymalna ilość gwiazdek w trójkącie rośnie o 1
+6. Jak to zrobić?
